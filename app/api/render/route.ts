@@ -10,7 +10,7 @@ export async function POST(request: Request) {
     {
       method: "POST",
       headers: {
-        Authorization: `Bearer ${process.env.GITHUB_ACCESS_TOKEN}`,
+        Authorization: `Bearer ${process.env.GH_ACCESS_TOKEN}`,
         Accept: "application/vnd.github+json",
         "Content-Type": "application/json",
         "X-GitHub-Api-Version": "2022-11-28",
